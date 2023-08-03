@@ -2,10 +2,10 @@
    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
-   <artifactId>secure-sms-broker-root</artifactId>
+   <artifactId>secure-smsbroker-root</artifactId>
    <name>Secure SMS Broker :: Root</name>
    <description>Uberpom for the Secure SMS Broker Project</description>
-   <groupId>it.zwets.smsbroker</groupId>
+   <groupId>it.zwets.sms</groupId>
    <version>0.9.1</version>
    <packaging>pom</packaging>
 
@@ -13,7 +13,7 @@
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
       <jdk.version>17</jdk.version>
       <camel.version>3.21.0</camel.version>
-      <!--
+      <!-- NOT YET MIGRATED
       <activemq.version>5.15.8</activemq.version>
       <spring.version>5.1.3.RELEASE</spring.version>
       <xbean.version>4.12</xbean.version>
@@ -24,9 +24,11 @@
    </properties>
 
    <modules>
+      <!-- NOT YET MIGRATED
       <module>smsbroker-server</module>
       <module>smsbroker-client</module>
       <module>mock-smstools3</module>
+      -->
       <module>sms-utils</module>
    </modules>
 
