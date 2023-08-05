@@ -2,7 +2,7 @@
    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
    <modelVersion>4.0.0</modelVersion>
 
-   <artifactId>secure-smsbroker-root</artifactId>
+   <artifactId>secure-sms-broker-root</artifactId>
    <name>Secure SMS Broker :: Root</name>
    <description>Uberpom for the Secure SMS Broker Project</description>
    <groupId>it.zwets.sms</groupId>
@@ -25,10 +25,11 @@
 
    <modules>
       <!-- NOT YET MIGRATED
-      <module>smsbroker-server</module>
-      <module>smsbroker-client</module>
+      <module>sms-broker-server</module>
+      <module>sms-broker-client</module>
       <module>mock-smstools3</module>
       -->
+      <module>crypto-utils</module>
       <module>sms-utils</module>
    </modules>
 
@@ -36,12 +37,12 @@
       <dependencies>
       <!--
          <dependency>
-            <artifactId>smsbroker-server</artifactId>
+            <artifactId>sms-broker-server</artifactId>
             <groupId>${project.groupId}</groupId>
             <version>${project.version}</version>
          </dependency>
          <dependency>
-            <artifactId>smsbroker-client</artifactId>
+            <artifactId>sms-broker-client</artifactId>
             <groupId>${project.groupId}</groupId>
             <version>${project.version}</version>
          </dependency>
@@ -53,6 +54,11 @@
 	 -->
          <dependency>
             <artifactId>sms-utils</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <version>${project.version}</version>
+         </dependency>
+         <dependency>
+            <artifactId>crypto-utils</artifactId>
             <groupId>${project.groupId}</groupId>
             <version>${project.version}</version>
          </dependency>

@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>sms-utils</artifactId>
-	<name>SMS Broker :: Utils</name>
-	<description>Utilities to work with SMS format files.</description>
+	<artifactId>crypto-utils</artifactId>
+	<name>SMS Broker :: Crypto Utils</name>
+	<description>Utilities for cryptography in the Secure SMS Broker.</description>
 	<packaging>jar</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
