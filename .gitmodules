@@ -1,0 +1,6 @@
+[submodule "kafka-message-scheduler"]
+	path = kafka-message-scheduler
+	url = git@github.com:zwets/kafka-message-scheduler.git
+[submodule "kafka-message-scheduler-admin"]
+	path = kafka-message-scheduler-admin
+	url = git@github.com:zwets/kafka-message-scheduler-admin.git
