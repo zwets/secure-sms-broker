@@ -7,6 +7,21 @@ SMS Broker with scheduling and decent confidentiality guarantees
 Homed at: https://github.com/zwets/secure-sms-broker
 
 
+## Zwets Notes
+
+#### JSMPP
+
+ * [JSMPP](https://jsmpp.org) ([GitHub](https://github.com/opentelecoms-org/jsmpp)),
+   offers implementation of SMPP API v3.3, v3.4, v5.0, for client and ESME (not SMSC)
+ * JSMPP documentation on [their Wiki](https://github.com/opentelecoms-org/jsmpp/wiki/),
+   and they have examples, including 
+ * [SMSC Simulator](https://github.com/opentelecoms-org/jsmpp/wiki/GettingStarted#running-smpp-server)
+    available through JSMPP
+ * [Camel SMPP](https://camel.apache.org/smpp.html) is complete JSMPP wrapper
+ * [SMS Router](http://smsrouter.org/) ([GitHub](https://github.com/opentelecoms-org/smsrouter))
+   made by JSMPP developers; very simple Camel route, but apparently does the job.
+
+
 ## Background
 
 This SMS Broker was developed for a health research project with strong
