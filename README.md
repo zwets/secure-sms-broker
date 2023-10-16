@@ -35,7 +35,7 @@ The project evolved from an earlier iteration that had
 [SMSTools3 Server](https://git.kcri.it/sms/smstools-resources) as its
 backend, and JMS message queues as its interface.
 
-This version has *JMS* or *Kafka* as its front-end and *JSMPP* to an
+This versions has *JMS* or *Kafka* as its front-end and *JSMPP* to an
 *SMSC* as its back-end.
 
 > **Important**
@@ -69,6 +69,3 @@ Apart from the SMS Broker Server component, this project includes:
 * The **SMS Utils JAR** (`sms-utils`) contains shared and generic components
   such the class `SmsMessage` to conveniently generate and parse SMS messages.
 
-* The `kafka-message-scheduler` from <https://github.com/etf1/kafka-message-scheduler>
-
-* The `kafka-message-scheduler-admin` <https://github.com/etf1/kafka-message-scheduler-admin>
